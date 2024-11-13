@@ -11,7 +11,9 @@ const Rightsidebar = ({ user, transactions, banks }:
             <div className="profile-banner" />
             <div className="profile">
                 <div className="profile-img">
-                    <span className="text-5xl font-bold text-blue-500s">{user?.name[0]}</span>
+                    <span className="text-5xl font-bold text-blue-500">
+                        {user?.name ? user.name[0] : ""}
+                    </span>
                 </div>
 
                 <div className="profile-details">

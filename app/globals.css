@@ -379,4 +379,25 @@
   .sidebar-label {
     @apply text-16 font-semibold text-black-2 max-xl:hidden;
   }
+
+  /* Transaction styles */
+  .transactions {
+    @apply flex flex-col gap-10 p-8;
+  }
+
+  .transactions-account {
+    @apply flex justify-between items-start p-6 bg-blue-900 rounded-xl;
+  }
+
+  .transactions-list {
+    @apply flex flex-col gap-4;
+  }
+
+  .transaction-item {
+    @apply p-4 bg-blue-900 rounded-xl;
+  }
+
+  .transaction-icon {
+    @apply w-8 h-8 flex items-center justify-center bg-blue-800 rounded-full text-white;
+  }
 }
